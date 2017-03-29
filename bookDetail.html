@@ -1,0 +1,16 @@
+<div class="panel panel-primary book">
+	<div class="panel-heading">
+		<h3>{{ bd.book.name }}</h3>
+	</div>
+	<div class="panel-body">
+		<div>
+			<span>{{ bd.book.author }}</span>
+		</div>
+		<div>
+			<span>{{ bd.book.published }}</span>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<button type="button" class="close" title="Delete Book" ng-click="bd.delete()"><span>&times;</span></button>
+	</div>
+</div>

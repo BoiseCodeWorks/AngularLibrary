@@ -1,0 +1,8 @@
+body {
+	margin: 50px;
+}
+
+.book {
+	display: inline-block;
+	width: 200px;
+}
